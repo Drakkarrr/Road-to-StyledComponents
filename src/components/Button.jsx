@@ -9,6 +9,9 @@ const Button = () => {
             <br />
             <br />
             <StyledButton>Secondary Button</StyledButton>
+            <br />
+            <br />
+            <FancyButton>Fancy Button</FancyButton>
         </>
     )
 }
@@ -22,4 +25,8 @@ const StyledButton = styled.button`
   margin: 1rem;
   padding: 10px;
   cursor: pointer;
+`
+
+const FancyButton = styled(StyledButton)`
+    background: linear-gradient(to right, #10c6ea, #b71ada);
 `
