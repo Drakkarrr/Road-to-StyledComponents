@@ -25,6 +25,9 @@ const StyledButton = styled.button`
   margin: 1rem;
   padding: 10px;
   cursor: pointer;
+    &:hover {
+        background: red;        
+    }
 `
 
 const FancyButton = styled(StyledButton)`
